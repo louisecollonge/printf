@@ -6,7 +6,7 @@
 /*   By: lcollong <lcollong@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 11:41:53 by lcollong          #+#    #+#             */
-/*   Updated: 2024/11/18 10:41:41 by lcollong         ###   ########.fr       */
+/*   Updated: 2025/10/23 09:25:36 by lcollong         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,6 @@ int	main(void)
     printf(" taille = %d\n", printf("%X", 45642));
 //! POINTER :
     printf("%%p :\n");
-    // int variable = '\0';
 	int	*ptr = NULL;
     ft_printf(" taille = %d\n",ft_printf("%p", ptr));
     printf(" taille = %d\n",printf("%p", ptr));
